@@ -64,7 +64,7 @@ def main():
         
         img = Image.open("d1.jpg")
         st.image(img,width=150)
-        st.write('DIABETES PREDICTION WEB APP')
+        st.header('DIABETES PREDICTION WEB APP')
 
     with col3:
         
