@@ -30,26 +30,20 @@ def diabetes_prediction(input_data):
     else:
       return('The person is diabetic')
 
-import base64
-def add_bg_from_local(image_file):
-    with open(image_file, "rb") as image_file:
-        encoded_string = base64.b64encode(image_file.read())
+def add_bg_from_url():
     st.markdown(
-    f"""
-    <style>
-    .stApp {{
-        background-image: url(data:image/{"jpg"};base64,{encoded_string.decode()});
-        background-size: cover
-    }}
-    </style>
-    """,
-    unsafe_allow_html=True
-    )
-add_bg_from_local('diabetes.jpg')
-
-from PIL import Image
-image = Image.open('https://images.pexels.com/photos/1001897/pexels-photo-1001897.jpeg?auto=compress&cs=tinysrgb&w=600')
-st.image(image) 
+         f"""
+         <style>
+         .stApp {{
+             background-image: url("https://images.pexels.com/photos/6941105/pexels-photo-6941105.jpeg?auto=compress&cs=tinysrgb&w=600");
+             background-attachment: fixed;
+             background-size: cover
+         }}
+         </style>
+         """,
+         unsafe_allow_html=True
+     )
+add_bg_from_url()
     
 
 #steamlit library code
