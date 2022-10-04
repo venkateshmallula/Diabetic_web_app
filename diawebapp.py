@@ -31,7 +31,6 @@ def diabetes_prediction(input_data):
       return('The person is diabetic')
 
 
-[theme]
 base="dark"
 primaryColor="purple"
 
