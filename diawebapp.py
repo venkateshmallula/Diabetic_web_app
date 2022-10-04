@@ -62,7 +62,7 @@ def main():
     
     #getting the iput data from the uder
     
-    <font color=‘red’>Pregnancies</font>, unsafe_allow_html=True)= st.text_input('Number of Pregnancies')
+    <font color=‘red’>Pregnancies</font>= st.text_input('Number of Pregnancies')
     Glucose = st.text_input('Glucose Level')
     BloodPressure = st.text_input('Blood Pressure value')
     SkinThickness = st.text_input('SkinThickness value')
