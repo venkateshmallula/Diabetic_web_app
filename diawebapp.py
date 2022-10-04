@@ -31,6 +31,10 @@ def diabetes_prediction(input_data):
       return('The person is diabetic')
 
 
+[theme]
+base="dark"
+primaryColor="purple"
+
 import base64
 def add_bg_from_local(image_file):
     with open(image_file, "rb") as image_file:
