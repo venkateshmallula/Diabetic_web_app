@@ -55,12 +55,12 @@ add_bg_from_local('d2.jpg')
 def main():
     with open("style.css") as f:
         st.markdown(
-        '<style>
+        '<style>{
         .fullScreenFrame > div {{
               display: flex;
              justify-content: center;
         }}
-        </style>'.format(f.read()), unsafe_allow_html=True)
+        }</style>'.format(f.read()), unsafe_allow_html=True)
 
         path = "d1.jpg"
         image = Image.open(path)
