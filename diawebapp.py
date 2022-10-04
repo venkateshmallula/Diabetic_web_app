@@ -54,7 +54,7 @@ add_bg_from_local('diabetes.jpg')
 def main():
     from PIL import Image
     img = Image.open("diabetes.jpg")
-    st.image(img,width='30px')
+    st.image(img)
 
     
     #giving the title
