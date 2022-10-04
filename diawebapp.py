@@ -64,16 +64,14 @@ def main():
         
         img = Image.open("d1.jpg")
         st.image(img,width=150)
-        #giving the title
-        st.title('DIABETES PREDICTION WEB APP')
+        st.write('DIABETES PREDICTION WEB APP')
 
     with col3:
         
         st.write("")
     #giving the title
     st.title('DIABETES PREDICTION WEB APP')
-    
-    div style="text-align: center"> your-text-here </div>
+   
     
     #getting the iput data from the uder
     
