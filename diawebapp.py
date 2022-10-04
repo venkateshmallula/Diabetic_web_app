@@ -53,20 +53,21 @@ add_bg_from_local('d2.jpg')
 
 #steamlit library code
 def main():
-    with open("style.css") as f:
-        st.markdown(
-        '<style>{
-        .fullScreenFrame > div {{
-              display: flex;
-             justify-content: center;
-        }}
-        }</style>'.format(f.read()), unsafe_allow_html=True)
+    
+    col1, col2, col3 = st.columns([1,6,1])
 
-        path = "d1.jpg"
-        image = Image.open(path)
-        st.image(image, width = 150)
+    with col1:
+        
+        st.write("")
 
+    with col2:
+        
+        img = Image.open("d1.jpg")
+        st.image(img,width=300)
 
+    with col3:
+        
+        st.write("")
     #giving the title
     st.title('DIABETES PREDICTION WEB APP')
     
