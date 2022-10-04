@@ -80,7 +80,7 @@ def main():
     if st.button('Diabetes Test Result'):
         Diagnosis = diabetes_prediction([Pregnancies,Glucose,BloodPressure,SkinThickness,Insulin,BMI,DiabetesPedigreeFunction,Age])
         
-    st.success(Diagnosis)
+    st.success(Diagnosis,icon="✅")
     
     
 if __name__=='__main__':
