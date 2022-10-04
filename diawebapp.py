@@ -32,7 +32,7 @@ def diabetes_prediction(input_data):
 
 
 base="dark"
-textColor="#262730"
+textColor="black"
 
 import base64
 def add_bg_from_local(image_file):
