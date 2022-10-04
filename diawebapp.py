@@ -8,6 +8,7 @@ Created on Tue Oct  4 21:59:49 2022
 import numpy as np
 import pickle
 import streamlit as st
+from PIL import Image
 
 #loading the saved file
 loaded_model  = pickle.load(open('diabetes_model.sav','rb'))
@@ -55,9 +56,7 @@ def main():
     with open("style.css") as f:
         
         st.markdown('<style>{}</style>'.format(f.read()), unsafe_allow_html=True)
-
-        path = "d1.jpg"
-        image = Image.open(path)
+        image = Image.open("d1.jpg")
         st.image(image, width = 150)
  
 
