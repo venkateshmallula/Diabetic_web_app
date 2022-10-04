@@ -53,7 +53,7 @@ add_bg_from_local('d2.jpg')
 
 #steamlit library code
 def main():
-    col1, col2, col3 = st.beta_columns([1,6,1])
+    col1, col2, col3 = st.columns([1,6,1])
 
     with col1:
         
@@ -62,7 +62,7 @@ def main():
     with col2:
         
         img = Image.open("d1.jpg")
-        st.Image(img)
+        st.image(img)
 
     with col3:
         
