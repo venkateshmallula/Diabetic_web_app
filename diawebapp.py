@@ -56,7 +56,7 @@ def main():
     
     img = Image.open("https://www.pexels.com/photo/landscape-nature-sky-man-6620743/")
     st.image(img)
-    giving the title
+    #giving the title
     st.title('DIABETES PREDICTION WEB APP')
     
     #getting the iput data from the uder
