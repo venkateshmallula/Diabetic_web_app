@@ -30,9 +30,7 @@ def diabetes_prediction(input_data):
     else:
       return('The person is diabetic')
 
-from PIL import Image
-img = Image.open("diabetes.jpg")
-st.image(img)
+
 
 import base64
 def add_bg_from_local(image_file):
@@ -54,6 +52,9 @@ add_bg_from_local('diabetes.jpg')
 
 #steamlit library code
 def main():
+    from PIL import Image
+    img = Image.open("diabetes.jpg")
+    st.image(img,width='30px')
 
     
     #giving the title
