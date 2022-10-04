@@ -54,7 +54,7 @@ add_bg_from_local('d2.jpg')
 #steamlit library code
 def main():
     
-    col1, col2, col3 = st.columns([1,6,1])
+    col1, col2, col3 = st.columns(3)
 
     with col1:
         
