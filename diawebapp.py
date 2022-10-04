@@ -52,11 +52,11 @@ add_bg_from_local('diabetes.jpg')
 #steamlit library code
 def main():
     
-    #from PIL import Image
+    from PIL import Image
     
-    #img = Image.open("https://www.pexels.com/photo/landscape-nature-sky-man-6620743/")
-    #st.image(img)
-    #giving the title
+    img = Image.open("https://www.pexels.com/photo/landscape-nature-sky-man-6620743/")
+    st.image(img)
+    giving the title
     st.title('DIABETES PREDICTION WEB APP')
     
     #getting the iput data from the uder
