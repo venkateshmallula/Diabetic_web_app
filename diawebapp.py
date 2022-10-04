@@ -63,8 +63,6 @@ def main():
         
         img = Image.open("d1.jpg")
         st.image(img,width=300)
-        #giving the title
-        st.title('DIABETES PREDICTION WEB APP')
 
     with col3:
         
