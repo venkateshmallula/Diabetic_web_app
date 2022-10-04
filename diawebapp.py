@@ -63,7 +63,7 @@ def main():
     with col2:
         
         img = Image.open("d1.jpg")
-        st.image(img,width=300)
+        st.image(img,width=150)
 
     with col3:
         
