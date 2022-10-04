@@ -56,7 +56,7 @@ def main():
     with open("style.css") as f:
         st.markdown(
         f"""
-        <style>{
+        <style>
         .fullScreenFrame > div {{
               display: flex;
              justify-content: center;
