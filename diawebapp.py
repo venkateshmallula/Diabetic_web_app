@@ -47,7 +47,7 @@ def add_bg_from_local(image_file):
     """,
     unsafe_allow_html=True
     )
-add_bg_from_local('d1.jpg')
+add_bg_from_local('d2.jpg')
     
 
 #steamlit library code
@@ -80,7 +80,7 @@ def main():
     if st.button('Diabetes Test Result'):
         Diagnosis = diabetes_prediction([Pregnancies,Glucose,BloodPressure,SkinThickness,Insulin,BMI,DiabetesPedigreeFunction,Age])
         
-    st.success(Diagnosis,icon="✅")
+    st.success(Diagnosis)
     
     
 if __name__=='__main__':
