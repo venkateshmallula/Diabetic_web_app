@@ -35,7 +35,7 @@ def add_bg_from_url():
          f"""
          <style>
          .stApp {{
-             background-image: url("https://images.pexels.com/photos/6942082/pexels-photo-6942082.jpeg");
+             background-image: url("https://images.pexels.com/photos/6941884/pexels-photo-6941884.jpeg?auto=compress&cs=tinysrgb&w=600");
              background-attachment: fixed;
              background-size: cover
          }}
