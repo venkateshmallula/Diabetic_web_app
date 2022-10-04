@@ -52,9 +52,13 @@ add_bg_from_local('d2.jpg')
 
 #steamlit library code
 def main():
-    from PIL import Image
-    img = Image.open("d1.jpg")
-    st.image(img , width=400)
+    with open("style.css") as f:
+    st.markdown('<style>{}</style>'.format(f.read()), unsafe_allow_html=True)
+
+    path = "d1.jpg"
+    image = Image.open(path)
+    st.image(image, width = 150)
+ 
 
     
     #giving the title
