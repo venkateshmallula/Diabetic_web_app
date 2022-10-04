@@ -73,6 +73,8 @@ def main():
     #giving the title
     st.title('DIABETES PREDICTION WEB APP')
     
+    div style="text-align: center"> your-text-here </div>
+    
     #getting the iput data from the uder
     
     Pregnancies = st.text_input('Number of Pregnancies')
