@@ -30,21 +30,6 @@ def diabetes_prediction(input_data):
     else:
       return('The person is diabetic')
 
-'''def add_bg_from_url():
-    st.markdown(
-         f"""
-         <style>
-         .stApp {{
-             background-image: url("https://images.pexels.com/photos/6941884/pexels-photo-6941884.jpeg?auto=compress&cs=tinysrgb&w=600");
-             background-attachment: fixed;
-             background-size: cover
-         }}
-         </style>
-         """,
-         unsafe_allow_html=True
-     )
-
-add_bg_from_url()'''
 
 import base64
 def add_bg_from_local(image_file):
