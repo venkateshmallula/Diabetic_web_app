@@ -53,8 +53,8 @@ add_bg_from_local('d2.jpg')
 #steamlit library code
 def main():
     from PIL import Image
-    img = Image.open("diabetes.jpg")
-    st.image(img , width=250 ,use_column_width=never)
+    img = Image.open("d1.jpg")
+    st.image(img , width=400)
 
     
     #giving the title
