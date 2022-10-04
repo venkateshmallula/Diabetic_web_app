@@ -37,7 +37,7 @@ def main():
     
     from PIL import Image
     
-    img = Image.open("https://www.wittysparks.com/wp-content/uploads/2007/10/pc.jpg")
+    img = Image.open("https://www.pexels.com/photo/landscape-nature-sky-man-6620743/")
     st.image(img)
     #giving the title
     st.title('DIABETES PREDICTION WEB APP')
