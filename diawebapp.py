@@ -47,15 +47,14 @@ def add_bg_from_local(image_file):
     )
 add_bg_from_local('diabetes.jpg')
 
- 
+from PIL import Image
+image = Image.open('https://images.pexels.com/photos/1001897/pexels-photo-1001897.jpeg?auto=compress&cs=tinysrgb&w=600')
+st.image(image) 
     
 
 #steamlit library code
 def main():
-    from PIL import Image
-    image = Image.open('https://images.pexels.com/photos/1001897/pexels-photo-1001897.jpeg?auto=compress&cs=tinysrgb&w=600')
 
-    st.image(image)
     
     #giving the title
     st.title('DIABETES PREDICTION WEB APP')
